@@ -1,0 +1,217 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Alice', serif;
+}
+.full-page{
+    background-image: url('photos/new.jpg');
+    background-size: cover;  
+    height: 100vh;
+    width: 100%;    
+}
+.header{
+    display: flex; 
+    background-color: rgb(0, 0, 0,0.4);
+    
+   
+}
+.logo{
+   flex: 2;
+   font-size: 5rem;
+   font-weight: 800;
+}
+.nav{
+    flex: 2;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    color: black;
+}
+.header a{
+    text-decoration: none;
+
+}
+.logo a{
+    color: #ff0000;
+    margin-left: 2rem;
+
+}
+.nav a{
+    color: rgb(144, 255, 255);
+    font-weight: bolder;
+    border: 0.5rem solid transparent;
+    margin: auto;
+}
+.nav a:hover{
+    color: rgb(255, 255, 255);
+    border-top: 5px solid white;
+
+}
+.nav{
+    margin: 0%;
+    padding: auto;
+}
+
+button a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.ordering{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem ;
+    color: rgb(33, 33, 33);
+}
+/* content */
+
+
+.content{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+
+}
+.tagline-1{
+    color: rgb(246, 255, 0);
+    font-size: 5rem;
+    font-weight: 600;
+    margin-bottom: 1em;
+    background-color: rgb(0, 0, 0,0.5);
+    align-self: center;
+    
+    
+}
+.tagline2{
+    color: rgb(0, 255, 255);
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 1em;
+    align-self: center;
+}
+.contact{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    align-self: center;
+}
+
+button{
+    background-color: rgb(0, 60, 255);
+    margin-top: 2em;
+    height: 3rem;
+    width: 7.5rem;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    align-self: center;
+}
+
+/* menus */
+
+.menu-page{
+    background-image: url('photos/hero.jpg');
+    background-size: cover;  
+    height: 100vh;
+    width: 100%;
+}
+.header-menu{
+    display: flex; 
+    background-color: rgb(0, 0, 0,0.2);
+}
+.header a{
+    text-decoration: none;
+
+}
+
+
+.logo{
+   flex: 2;
+   font-size: 5rem;
+   font-weight: 800;
+}
+.nav-menu{
+    flex: 2;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    color: black;
+}
+.header-menu a{
+    text-decoration: none;
+
+}
+.logo a{
+    color: #ff0000;
+    margin-left: 2rem;
+
+}
+.nav-menu a{
+    color: rgb(144, 255, 255);
+    font-weight: bolder;
+    border: 0.5rem solid transparent;
+    margin: auto;
+}
+.nav-menu a:hover{
+    color: rgb(255, 255, 255);
+    border-top: 5px solid white;
+
+}
+.nav-menu{
+    margin: 0%;
+    padding: auto;
+}
+
+.menus{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    height: 72vh;
+}
+.main-course{
+    background-color: rgb(0, 0, 0,0.2);
+  
+}
+.staters{
+    background-color: rgb(0, 0, 0,0.3);
+}
+.juice{
+    background-color: rgb(0, 0, 0,0.3);
+}
+
+
+.address{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2rem;
+    margin-top: 2rem;
+}
+.palakkad{
+    width: 100%;
+    margin-right: 2rem;
+    background-color: rgb(0, 0, 0,0.3);
+    color: white;
+    padding: 2rem;
+    height: 63vh;
+}
+h3{
+    font-size: 3em;
+}
+.palakkad p{
+    font-size: 2em;
+    
+}
+
+
+.location{
+    background-image: url('photos/indian\ food.jpg');
+    background-size: cover;  
+    height: 100vh;
+    width: 100%;    
+}
